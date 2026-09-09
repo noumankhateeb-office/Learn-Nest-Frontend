@@ -52,7 +52,7 @@ export default function LoginPage() {
       });
 
       // Save JWT token
-      localStorage.setItem("token", data.data.token);
+      localStorage.setItem("token", data.token);
 
       // Redirect to tasks page
       router.replace("/tasks");

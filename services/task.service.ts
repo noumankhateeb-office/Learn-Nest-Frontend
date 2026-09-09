@@ -31,7 +31,7 @@ export const getTasks = async () => {
     };
   }
 
-  return data.data;
+  return data.tasks;
 };
 
 // Create task
@@ -53,7 +53,7 @@ export const createTask = async (task: string) => {
     };
   }
 
-  return data.data;
+  return data.task;
 };
 
 // Update task
@@ -75,7 +75,7 @@ export const updateTask = async (id: number, task: string) => {
     };
   }
 
-  return data.data;
+  return data.task;
 };
 
 // Delete task
